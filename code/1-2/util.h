@@ -1,5 +1,6 @@
-#include <studio.h>
+#include <stdio.h>
 
-static inline void logger(char* message) {
-  printf("log: %s\n", message);
+static inline void logger(char *message)
+{
+    printf("log: %s\n", message);
 }

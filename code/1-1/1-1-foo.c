@@ -1,5 +1,6 @@
-#include <studio.h>
+#include <stdio.h>
 
-static int foo(int a, int b) {
-  return a+b;
+static int foo(int a, int b)
+{
+    return a + b;
 }

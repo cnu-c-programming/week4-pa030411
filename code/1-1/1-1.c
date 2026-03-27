@@ -1,7 +1,9 @@
-#include <studio.h>
-exturn int foo(int a, int b);
+#include <stdio.h>
 
-int main() {
-  printf("%\n" , foo(1,2));
-  return 0;
+extern int foo(int a, int b);
+
+int main(void)
+{
+    printf("%d\n", foo(1, 2));
+    return 0;
 }
